@@ -1,0 +1,5 @@
+SAMPLES:
+  ONT_0058_g634_duplex_q25
+  #simplex: ./data/samples/ONT_0058_g634_simplex.fastq.gz
+NANOPORE_RUN_SETTINGS: r1041_prom_sup_g634
+THREADS: 1
