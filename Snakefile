@@ -16,14 +16,16 @@ def setThreads(total_threads, threads):
 
 total_threads = config["THREADS"]
 
-#### symlink rule?
+#### concatenate barcodes
+include: "rules/concatenate_barcodes.smk"
+
 
 #### minimap2
-include: "rules/minimap2-remove_human.smk"
+# include: "rules/minimap2-remove_human.smk"
 
 
 #### metaflye assemble sample
-include: "rules/metaflye-assembly.smk"
+# include: "rules/metaflye-assembly.smk"
 
 #### 1xmedaka polishing
 
